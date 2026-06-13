@@ -1,0 +1,41 @@
+# Compiled Object files, temporary folders, and logs
+*.o
+*.a
+*.so
+*.out
+*.log
+
+# Compiled Binaries
+# It is best practice to output your builds to a /bin or /out folder
+bin/
+out/
+dist/
+
+# Code coverage and performance profiling tools
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_cgo_main.c
+_cgo_tmp_*
+
+# Test artifacts and coverage files
+*.test
+*.prof
+*.out
+coverage.txt
+
+# Go workspace file (only ignore if you do not intend to share workspaces with your team)
+go.work
+go.work.sum
+
+# Local environment variables 
+.env
+.env.*
+!.env.example
+
+# Dependency directory
+# Only un-comment if you use 'go mod vendor' but do not want to commit the vendored source code
+# vendor/
+
