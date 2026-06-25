@@ -8,10 +8,13 @@ add `export PATH=$PATH:/usr/local/go/bin` (it was already there)
 Verify with `go version`
 
 2. `go mod init <module_path_url>` example `go mod init github.com/pro542/my-go-module` if you want others to use it
-otherwise `go mod init example/hello`
+otherwise `go mod init example/hello`. 
 
-3. Check (pkg.go.dev)[https://pkg.go.dev] to search for packages
+3. When creating a new module, `mkdir`, `cd` to it, then do `go mod init`
 
-4. After adding in code, use `go mod tidy` to add as requirement and auth the module
+4. Check (pkg.go.dev)[https://pkg.go.dev] to search for packages
 
+5. After adding in code, use `go mod tidy` to add as requirement and auth the module
+
+6. Run with `cd hello` and `go run .`
 
