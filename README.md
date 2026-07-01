@@ -22,7 +22,11 @@ Download the tar file, then from ~/Downloads/
 add `export PATH=$PATH:/usr/local/go/bin` (it was already there)
 Verify with `go version`
 
-=======
+### Reference
+
+Basic tutorials were done from video [Learn GO Fast: Full Tutorial by Alex Mux](https://youtu.be/8uiZC0l4Ajw?si=VzyxcGkem8sprMFS)
+
+
 ### Suggestions
 
 A progression of projects to learn Go and backend concepts, ordered so each teaches a distinct BE concept. The highest signal comes from doing 2 → 3 → 4 thoroughly.
