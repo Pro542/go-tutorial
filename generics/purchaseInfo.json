@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Electric Scooter",
+    "Price": 192.0,
+    "Amount": 3
+  },
+  {
+    "Name": "Skateboard",
+    "Price": 168.0,
+    "Amount": 1
+  },
+  {
+    "Name": "Roller blades",
+    "Price": 11.0,
+    "Amount": 1
+  }
+]
