@@ -25,7 +25,7 @@ Verify with `go version`
 =======
 ### Suggestions
 
-A progression of projects to learn Go and backend concepts, ordered so each teaches a distinct BE concept. As a FE lead, the highest CV signal comes from doing 2 → 3 → 4 thoroughly.
+A progression of projects to learn Go and backend concepts, ordered so each teaches a distinct BE concept. The highest signal comes from doing 2 → 3 → 4 thoroughly.
 
 1. **CLI tool** (e.g. a git-log analyzer or Markdown link-checker)
    - Learn syntax, structs, interfaces, `if err != nil` error handling, and the standard library without networking noise.
