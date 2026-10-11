@@ -2,7 +2,7 @@
 
 1. Run with `cd hello` and `go run`
 
-2. Check (pkg.go.dev)[https://pkg.go.dev] to search for packages
+2. Check [pkg.go.dev](https://pkg.go.dev) to search for packages
 
 3. After adding in code, use `go mod tidy` to add as requirement and auth the module
 

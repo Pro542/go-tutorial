@@ -1,3 +1,4 @@
+// Package handlers contains functions to handle requests and responses
 package handlers
 
 import (
@@ -6,7 +7,7 @@ import (
 	chimiddle "github.com/go-chi/chi/middleware"
 )
 
-// capitalized name tells compiler func can be imported in other packages
+// Handler capitalized name tells compiler func can be imported in other packages
 func Handler(r *chi.Mux) {
 	// Global middleware
 	r.Use(chimiddle.StripSlashes)

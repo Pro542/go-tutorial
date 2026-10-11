@@ -12,7 +12,7 @@ import (
 
 func GetCoinBalance(w http.ResponseWriter, r *http.Request) {
 	var params = api.CoinBalanceParams{}
-	var decoder *schema.Decoder = schema.NewDecoder()
+	var decoder = schema.NewDecoder()
 	var err error
 
 	err = decoder.Decode(&params, r.URL.Query())
@@ -30,8 +30,7 @@ func GetCoinBalance(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var tokenDetails *tools.CoinDetails
-	tokenDetails = (*database).GetUserCoins(params.Username)
+	var tokenDetails = (*database).GetUserCoins(params.Username)
 	if tokenDetails == nil {
 		log.Error(err)
 		api.InternalErrorHandler(w)
